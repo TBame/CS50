@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+
+int height
+do
+{
+    printf("height: ");
+    int height = get_int();
+}
+while(height < 0 or height > 23);
+{
+    printf("%s\n", height)
+}
